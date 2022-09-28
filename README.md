@@ -55,6 +55,10 @@ How does the mean of the mean squared errors compare to that from the normalized
 
 
 ## Technologies & Usage
-This project leverages Python 3.9, Numpy, Matplotlib, Scikit-Learn, Pandas, and Seaborn with the following requirements and dependencies:
-- import itertools
-
+This project leverages Python 3.9, Numpy, Scikit-Learn, Pandas, and Keras with the following requirements and dependencies:
+- import pandas as pd
+- import numpy as np
+- from sklearn.model_selection import train_test_split
+- import keras
+- from keras.models import Sequential
+- from keras.layers import Dense
